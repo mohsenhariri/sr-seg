@@ -1,0 +1,30 @@
+# Environment
+env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.deprecate.*
+
+# Distribution / packaging
+dist/
+*.egg-info/
+
+# Jupyper Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode
+
+# Datasets
+nnUNet_raw_data_base
+nnUNet_preprocessed
+nnUNet_trained_models
+
+
+# output models
+saved_models/
+
+# tensorboard 
+runs/
+
