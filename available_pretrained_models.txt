@@ -1,0 +1,170 @@
+
+
+Please cite the following paper when using nnUNet:
+
+Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nat Methods (2020). https://doi.org/10.1038/s41592-020-01008-z
+
+
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+nnUNet_raw_data_base is not defined and nnU-Net can only be used on data for which preprocessed files are already present on your system. nnU-Net cannot be used for experiment planning and preprocessing like this. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up properly.
+nnUNet_preprocessed is not defined and nnU-Net can not be used for preprocessing or training. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up.
+RESULTS_FOLDER is not defined and nnU-Net cannot be used for training or inference. If this is not intended behavior, please read documentation/setting_up_paths.md for information on how to set this up.
+The following pretrained models are available:
+
+
+Task001_BrainTumour
+Brain Tumor Segmentation. 
+Segmentation targets are edema, enhancing tumor and necrosis, 
+Input modalities are 0: FLAIR, 1: T1, 2: T1 with contrast agent, 3: T2. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task002_Heart
+Left Atrium Segmentation. 
+Segmentation target is the left atrium, 
+Input modalities are 0: MRI. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task003_Liver
+Liver and Liver Tumor Segmentation. 
+Segmentation targets are liver and tumors, 
+Input modalities are 0: abdominal CT scan. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task004_Hippocampus
+Hippocampus Segmentation. 
+Segmentation targets posterior and anterior parts of the hippocampus, 
+Input modalities are 0: MRI. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task005_Prostate
+Prostate Segmentation. 
+Segmentation targets are peripheral and central zone, 
+Input modalities are 0: T2, 1: ADC. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task006_Lung
+Lung Nodule Segmentation. 
+Segmentation target are lung nodules, 
+Input modalities are 0: abdominal CT scan. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task007_Pancreas
+Pancreas Segmentation. 
+Segmentation targets are pancras and pancreas tumor, 
+Input modalities are 0: abdominal CT scan. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task008_HepaticVessel
+Hepatic Vessel Segmentation. 
+Segmentation targets are hepatic vesels and liver tumors, 
+Input modalities are 0: abdominal CT scan. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task009_Spleen
+Spleen Segmentation. 
+Segmentation target is the spleen, 
+Input modalities are 0: abdominal CT scan. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task010_Colon
+Colon Cancer Segmentation. 
+Segmentation target are colon caner primaries, 
+Input modalities are 0: CT scan. 
+Also see Medical Segmentation Decathlon, http://medicaldecathlon.com/
+
+Task017_AbdominalOrganSegmentation
+Multi-Atlas Labeling Beyond the Cranial Vault - Abdomen. 
+Segmentation targets are thirteen different abdominal organs, 
+Input modalities are 0: abdominal CT scan. 
+Also see https://www.synapse.org/#!Synapse:syn3193805/wiki/217754
+
+Task024_Promise
+Prostate MR Image Segmentation 2012. 
+Segmentation target is the prostate, 
+Input modalities are 0: T2. 
+Also see https://promise12.grand-challenge.org/
+
+Task027_ACDC
+Automatic Cardiac Diagnosis Challenge. 
+Segmentation targets are right ventricle, left ventricular cavity and left myocardium, 
+Input modalities are 0: cine MRI. 
+Also see https://acdc.creatis.insa-lyon.fr/
+
+Task029_LiTS
+Liver and Liver Tumor Segmentation Challenge. 
+Segmentation targets are liver and liver tumors, 
+Input modalities are 0: abdominal CT scan. 
+Also see https://competitions.codalab.org/competitions/17094
+
+Task035_ISBILesionSegmentation
+Longitudinal multiple sclerosis lesion segmentation Challenge. 
+Segmentation target is MS lesions, 
+input modalities are 0: FLAIR, 1: MPRAGE, 2: proton density, 3: T2. 
+Also see https://smart-stats-tools.org/lesion-challenge
+
+Task038_CHAOS_Task_3_5_Variant2
+CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation Challenge (Task 3 & 5). 
+Segmentation targets are left and right kidney, liver, spleen, 
+Input modalities are 0: T1 in-phase, T1 out-phase, T2 (can be any of those)
+Also see https://chaos.grand-challenge.org/
+
+Task048_KiTS_clean
+Kidney and Kidney Tumor Segmentation Challenge. Segmentation targets kidney and kidney tumors, Input modalities are 0: abdominal CT scan. Also see https://kits19.grand-challenge.org/
+
+Task055_SegTHOR
+SegTHOR: Segmentation of THoracic Organs at Risk in CT images. 
+Segmentation targets are aorta, esophagus, heart and trachea, 
+Input modalities are 0: CT scan. 
+Also see https://competitions.codalab.org/competitions/21145
+
+Task061_CREMI
+MICCAI Challenge on Circuit Reconstruction from Electron Microscopy Images (Synaptic Cleft segmentation task). 
+Segmentation target is synaptic clefts, 
+Input modalities are 0: serial section transmission electron microscopy of neural tissue. 
+Also see https://cremi.org/
+
+Task075_Fluo_C3DH_A549_ManAndSim
+Fluo-C3DH-A549-SIM and Fluo-C3DH-A549 datasets of the cell tracking challenge. Segmentation target are C3DH cells in fluorescence microscopy images.
+Input modalities are 0: fluorescence_microscopy
+Also see http://celltrackingchallenge.net/
+
+Task076_Fluo_N3DH_SIM
+Fluo-N3DH-SIM dataset of the cell tracking challenge. Segmentation target are N3DH cells and cell borders in fluorescence microscopy images.
+Input modalities are 0: fluorescence_microscopy
+Also see http://celltrackingchallenge.net/
+Note that the segmentation output of the models are cell center and cell border. These outputs mus tbe converted to an instance segmentation for the challenge. 
+See https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/Task076_Fluo_N3DH_SIM.py
+
+Task082_BraTS2020
+Brain tumor segmentation challenge 2020 (BraTS)
+Segmentation targets are 0: background, 1: edema, 2: enhancing tumor, 3: necrosis
+Input modalities are 0: T1, 1: T1ce, 2: T2, 3: FLAIR (MRI images)
+Also see https://www.med.upenn.edu/cbica/brats2020/
+
+Task089_Fluo-N2DH-SIM_thickborder_time
+Fluo-N2DH-SIM dataset of the cell tracking challenge. Segmentation target are nuclei of N2DH cells and cell borders in fluorescence microscopy images.
+Input modalities are 0: t minus 4, 0: t minus 3, 0: t minus 2, 0: t minus 1, 0: frame of interest
+Note that the input channels are different time steps from a time series acquisition
+Note that the segmentation output of the models are cell center and cell border. These outputs mus tbe converted to an instance segmentation for the challenge. 
+See https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/Task089_Fluo-N2DH-SIM.py
+Also see http://celltrackingchallenge.net/
+
+Task114_heart_MNMs
+Cardiac MRI short axis images from the M&Ms challenge 2020.
+Input modalities are 0: MRI 
+See also https://www.ub.edu/mnms/ 
+Note: Labels of the M&Ms Challenge are not in the same order as for the ACDC challenge. 
+See https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/Task114_heart_mnms.py
+
+Task115_COVIDSegChallenge
+Covid lesion segmentation in CT images. Data originates from COVID-19-20 challenge.
+Predicted labels are 0: background, 1: covid lesion
+Input modalities are 0: CT 
+See also https://covid-segmentation.grand-challenge.org/
+
+Task135_KiTS2021
+Kidney and kidney tumor segmentation in CT images. Data originates from KiTS2021 challenge.
+Predicted labels are 0: background, 1: kidney, 2: tumor, 3: cyst 
+Input modalities are 0: CT 
+See also https://kits21.kits-challenge.org/

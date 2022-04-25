@@ -21,10 +21,15 @@ nnUNet_raw_data_base
 nnUNet_preprocessed
 nnUNet_trained_models
 
+Train302
+Train001
+
+backup
 
 # output models
 saved_models/
 
 # tensorboard 
 runs/
+
 
