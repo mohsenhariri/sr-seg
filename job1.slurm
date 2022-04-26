@@ -7,4 +7,4 @@ python3 -m venv env
 source env/bin/activate
 python --version
 pip install -r requirements.txt
-make piplineconfig
+make pipelineconfig

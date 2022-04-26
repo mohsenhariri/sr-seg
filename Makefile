@@ -28,7 +28,7 @@ c1:
 		nnUNet_convert_decathlon_task -i Task01
 
 # TESTED
-piplineconfig:
+pipelineconfig:
 		nnUNet_plan_and_preprocess -t 1
 
 train:
